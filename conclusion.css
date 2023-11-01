@@ -1,0 +1,120 @@
+body{
+    margin: 0%; /*sets margin of the body to 0*/
+    background-image: url(backgroundpic/wall.png); /*sets the background of the body of each page to a picture*/
+    background-repeat: no-repeat; /*makes it so that the background image doesn't repeat if it doesn't fill the space*/
+    background-attachment: fixed; /*makes it so that the background doesn't move when you scroll*/
+    background-size: 100% 100%; /*resizes the background image*/
+    object-fit: cover; /*sets the image to fill the space*/
+}
+.menubar{
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    width: 100w;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    text-align: center;
+    text-decoration-color: rgb(255, 0, 0)  ;
+    border-radius: 2%;
+}
+.tabs:hover{
+    width: 20vw;
+    transition: 1.5s;
+    padding-inline: 2%;
+    background-color: rgb(255, 227, 174);
+    
+}
+.tabs{
+    height: 7vh;
+    width: 20vw;
+    background-color: rgb(95, 95, 95);
+    justify-content: space-around;
+}  
+.skinny{
+    display: flex;
+    flex-direction: row;
+    height: 2.5vh;
+    width: 50w;
+    border: 1px solid black;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration-color: antiquewhite  ;
+
+}
+.tabs1{
+    height: 2vh;
+    width: 20vw;
+    background-color: rgba(0, 0, 0, 0.185);
+    justify-content: space-around;
+}
+.tabs1:hover{
+    height: 2vh;
+    width: 20vw;
+    background-color: rgba(255, 255, 255, 0.185);
+    justify-content: space-around;
+}
+.footer{
+    margin-top: 70vh;
+    display: inline-block;
+    height: 20vh;
+    width: 100vw;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 43, 11);
+    text-decoration-color: rgb(255, 145, 0)  ;
+    position: fixed;
+}
+.footer:hover{
+    margin-top: 50vh;
+    display: inline-block;
+    height: 50vh;
+    width: 100vw;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(185, 150, 117, 0.74);
+    text-decoration-color: rgb(255, 145, 0)  ;
+    position: fixed;
+    transition: 1s;
+}
+
+.socialspics{
+    width: 2vw;
+    aspect-ratio: 1/1;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+}
+.socialsicons{
+    background-color: #02580967;
+    width: 3vw;
+    aspect-ratio: 1/1;
+    float: left;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 0.5vw;
+}
+.ref:hover{
+    transition: 1.5s;
+    background-color: rgb(255, 227, 174);
+    justify-content: space-around;
+}
+.ref{
+    height: 5vh;
+    width: 8vw;
+    background-color: #02580954;
+    margin-left: 80%;
+}  
+.rref{
+    visibility: hidden;
+    height: 5vh;
+    width: 8vw;
+    background-color: #02580954;
+    margin-left: 80%;
+}
+.ref:hover ~ .rref{
+    visibility: visible;
+}
+.zebody{
+    border: 5px solid black;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aliceblue;
+}
